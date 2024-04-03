@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buildsafe</title>
+    <!--"https://e0.pxfuel.com/wallpapers/754/337/desktop-wallpaper-3d-animation-of-building-construction.jpg"-->
+</head>
+<body background = "https://e0.pxfuel.com/wallpapers/754/337/desktop-wallpaper-3d-animation-of-building-construction.jpg"
+style="background-color: lightgray;">
+    <div class = "card" style="height: 530px; width:20%; background-color: grey; margin-top:0%; padding:0%;">
+            <form action="/predict_img" method="POST" enctype="multipart/form-data" name = "form1" > 
+                <label for="inputfile" style="margin-left: 10px; margin-bottom: 10px; margin-top: 10px;">Input image or videos</label>
+                <input type="file" id="inputfile" class="form-control-file" name="file"
+                 style=" margin-left:10px; position: relative;">
+                <button class="btn btn-block btn-default btn-sm" id ="btn" type="submit"
+                 style=" position: relative;  margin-left:10px; margin-top:5px; background-color: white; border-radius: 5px;">
+                 submit</button>
+                <!--<input type="submit" value="submit" style="margin-top:2%; position: relative; margin-left:5%">-->
+            </form>
+            <br>
+            <form action="/red">
+                <button id="livecam" type= "submit"
+                style=" margin-top:1%;  margin-left:10px; position: relative; background-color: white">live_camera</button>
+            </form>
+    </div>
+    <style>
+        #livecam{
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+    <script>
+        
+    </script>
+</body>
+</html
